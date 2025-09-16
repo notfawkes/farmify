@@ -31,13 +31,7 @@ export function LandingPage() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <div className="flex items-center space-x-2">
-              <div className="relative">
-                <Leaf className="w-8 h-8 text-primary" />
-                <Star className="w-4 h-4 text-accent absolute -top-1 -right-1" />
-              </div>
-              <span className="text-2xl font-bold text-primary font-sans">Farmify</span>
-            </div>
+            <img src="/logo.png" alt="Farmify Logo" className="h-20 w-20 object-contain" />
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">

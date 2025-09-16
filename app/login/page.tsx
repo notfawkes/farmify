@@ -32,10 +32,8 @@ export default function LoginPage() {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <div className="relative">
-              <Leaf className="w-10 h-10 text-primary" />
-              <Star className="w-5 h-5 text-accent absolute -top-1 -right-1" />
+              <img src="/logo.png" alt="Farmify Logo" className="h-40 w-40 object-contain" />
             </div>
-            <span className="text-3xl font-bold text-primary font-sans">Farmify</span>
           </div>
           <p className="text-muted-foreground">Welcome back, Yodha!</p>
         </div>

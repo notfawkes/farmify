@@ -114,10 +114,9 @@ export default function SmartCardPage() {
               {/* Farmify Logo */}
               <div className="flex items-center space-x-2">
                 <div className="relative">
-                  <Leaf className="w-8 h-8 text-white" />
-                  <Star className="w-4 h-4 text-yellow-400 absolute -top-1 -right-1" />
+                  {/* Logo */}
+                  <img src="/logo.png" alt="Farmify Logo" className="h-25 w-25 object-contain" />
                 </div>
-                <span className="text-xl font-bold">Farmify</span>
               </div>
 
               {/* Blockchain Badge */}

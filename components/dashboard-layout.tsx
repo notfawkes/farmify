@@ -56,11 +56,8 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
         <div className="fixed inset-y-0 left-0 w-64 bg-sidebar border-r border-sidebar-border">
           <div className="flex h-16 items-center justify-between px-4">
             <div className="flex items-center space-x-2">
-              <div className="relative">
-                <Leaf className="w-8 h-8 text-primary" />
-                <Star className="w-4 h-4 text-accent absolute -top-1 -right-1" />
-              </div>
-              <span className="text-xl font-bold text-primary font-sans">Farmify</span>
+            {/* Logo */}
+            <img src="/logo.png" alt="Farmify Logo" className="h-20 w-20 object-contain" />
             </div>
             <Button variant="ghost" size="sm" onClick={() => setSidebarOpen(false)}>
               <X className="w-5 h-5" />
@@ -98,11 +95,8 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
         <div className="flex h-full flex-col bg-sidebar border-r border-sidebar-border">
           <div className="flex h-16 items-center px-4">
             <div className="flex items-center space-x-2">
-              <div className="relative">
-                <Leaf className="w-8 h-8 text-primary" />
-                <Star className="w-4 h-4 text-accent absolute -top-1 -right-1" />
-              </div>
-              <span className="text-xl font-bold text-primary font-sans">Farmify</span>
+            {/* Logo */}
+            <img src="/logo.png" alt="Farmify Logo" className="h-20 w-20 object-contain" />
             </div>
           </div>
           <nav className="mt-8 flex-1 px-4 space-y-2">
