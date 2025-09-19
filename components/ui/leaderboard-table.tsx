@@ -31,6 +31,7 @@ export function LeaderboardTable({ data }: { data: Farmer[] }) {
           <TableRow>
             <TableHead className="w-20 text-center">Rank</TableHead>
             <TableHead>Farmer</TableHead>
+            <TableHead>Location</TableHead>
             <TableHead className="text-right">Farmify Points</TableHead>
             <TableHead className="w-24 text-center">Rewards</TableHead>
           </TableRow>
